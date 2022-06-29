@@ -18,7 +18,7 @@ array = [];
 function populate(n) {
   array.length = 0;
   for (let i = 0; i < n; i++) {
-    array[i] = Math.floor(Math.random() * 700) + 10;
+    array[i] = Math.floor(Math.random() * 500) + 10;
   }
   for (let i = 0; i < n; i++) {
     var div1 = document.createElement("div");
